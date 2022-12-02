@@ -1,4 +1,4 @@
-# digital-UI
+# simple-ui-lib
 
 ## BoxText
 

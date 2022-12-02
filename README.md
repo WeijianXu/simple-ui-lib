@@ -1,4 +1,4 @@
-# digital-ui
+# simple-ui-lib
 
 ## Project setup
 ```
