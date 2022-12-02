@@ -1,0 +1,29 @@
+$color-primairy: #1ad7f4;
+$color-secend: #edf9ff;
+$color-default: #ffffff;
+$color-warn: #fdff00;
+
+$title-color: #5ad1ff;
+$subtitle-color: #4aabd7;
+
+$info-title-color: #b3e2ff;
+$info-color: #75ccff;
+
+@mixin gradient-text($start, $end, $direction: top) {
+  background-image: -webkit-linear-gradient($direction, $start, $end);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin flex($justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin flexCol($justify: center, $align: center) {
+  display: flex;
+  flex-direction: column;
+  justify-content: $justify;
+  align-items: $align;
+}
